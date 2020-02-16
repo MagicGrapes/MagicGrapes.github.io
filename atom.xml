@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-16T13:55:31.038Z</updated>
+  <updated>2020-02-16T14:55:13.327Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Introduce</title>
+    <link href="http://yoursite.com/2020/02/16/Introduce/"/>
+    <id>http://yoursite.com/2020/02/16/Introduce/</id>
+    <published>2020-02-16T14:25:16.000Z</published>
+    <updated>2020-02-16T14:55:13.327Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><p>我叫MagicGrapes，这是我第一篇博客。目前就读于清华大学电子工程系。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h1&gt;&lt;p&gt;我叫MagicGrapes，这是我第一篇博客。目前就读于清华大学电子工程系。&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
@@ -30,6 +52,27 @@
       
       
         &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>陀螺仪和加速度计</title>
+    <link href="http://yoursite.com/2020/02/14/%E9%99%80%E8%9E%BA%E4%BB%AA%E5%92%8C%E5%8A%A0%E9%80%9F%E5%BA%A6%E8%AE%A1/"/>
+    <id>http://yoursite.com/2020/02/14/陀螺仪和加速度计/</id>
+    <published>2020-02-14T02:13:37.756Z</published>
+    <updated>2020-02-16T14:59:25.873Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="惯性传感器"><a href="#惯性传感器" class="headerlink" title="惯性传感器"></a>惯性传感器</h1><p><strong>Infinite impulse response</strong> (<strong>IIR</strong>) is a property applying to many <a href="https://en.wikipedia.org/wiki/Linear_time-invariant_system" target="_blank" rel="noopener">linear time-invariant systems</a>. Common examples of linear time-invariant systems are most <a href="https://en.wikipedia.org/wiki/Electronic_filter" target="_blank" rel="noopener">electronic</a> and <a href="https://en.wikipedia.org/wiki/Digital_filter" target="_blank" rel="noopener">digital filters</a>. Systems with this property are known as <em>IIR systems</em> or <em>IIR filters</em>, and are distinguished by having an <a href="https://en.wikipedia.org/wiki/Impulse_response" target="_blank" rel="noopener">impulse response</a> which does not become exactly zero past a certain point, but continues indefinitely. This is in contrast to a <a href="https://en.wikipedia.org/wiki/Finite_impulse_response" target="_blank" rel="noopener">finite impulse response</a> (FIR) in which the impulse response <em>h</em>(<em>t</em>) <em>does</em> become exactly zero at times <em>t</em> &gt; <em>T</em> for some finite <em>T</em>, thus being of finite duration.</p><p>无限冲激响应是许多线性时不变系统的一个性质。大多数的电子和数字滤波器都是线性时不变系统。具有无限冲激响应性质的系统被称为IIR系统或者IIR滤波器，它们的标志是具有一个不会在一定时间点之后变为零的冲激响应，而是无限的持续。比较而言，有限脉冲响应的冲激响应在有限时间之后变为零，只能持续有限的时间。</p><p><img src="C:\Users\MagicGrapes\Documents\Blog\source\_posts\image-20200216093128015.png" alt="image-20200216093128015">满量传输</p><p>非线性</p><p>带宽</p><p>工作温度</p><h1 id="加速度传感器"><a href="#加速度传感器" class="headerlink" title="加速度传感器"></a>加速度传感器</h1><h6 id="加速度传感器组成："><a href="#加速度传感器组成：" class="headerlink" title="加速度传感器组成："></a>加速度传感器组成：</h6><ul><li>弹簧</li><li>检测质量 proof mass</li><li>参考框架</li></ul><h6 id="加速度传感器原理："><a href="#加速度传感器原理：" class="headerlink" title="加速度传感器原理："></a>加速度传感器原理：</h6><p>加速度引起检测质量的位移，位移和加速度成正比</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;惯性传感器&quot;&gt;&lt;a href=&quot;#惯性传感器&quot; class=&quot;headerlink&quot; title=&quot;惯性传感器&quot;&gt;&lt;/a&gt;惯性传感器&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Infinite impulse response&lt;/strong&gt; (&lt;strong&gt;IIR&lt;/s
       
     
     </summary>
