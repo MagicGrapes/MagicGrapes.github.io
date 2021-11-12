@@ -101,17 +101,7 @@ deploy:
 - type: git
   repo: 
         github: git@github.com:MagicGrapes/MagicGrapes.github.io.git,master
-        hexo: root@101.37.82.250:/home/git/hexo.git,master
+        # hexo: root@101.37.82.250:/home/git/hexo.git,master
   # example, https://github.com/hexojs/hexojs.github.io
 # config of hexo-renderer-markdown-it
 # config of hexo-renderer-markdown-it
-markdown:
-  render:
-    html: true
-    xhtmlOut: false
-    breaks: true
-    linkify: true
-    typographer: true
-    quotes: '“”‘’'
-  plugins:
-    - markdown-it-katex
