@@ -31,7 +31,7 @@
 <meta property="og:image" content="http://yoursite.com/2020/09/26/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB9-21/image-20200922044854018.png">
 <meta property="og:image" content="http://yoursite.com/2020/09/26/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB9-21/image-20200923171412892.png">
 <meta property="article:published_time" content="2020-09-26T13:39:34.000Z">
-<meta property="article:modified_time" content="2021-04-21T05:28:11.236Z">
+<meta property="article:modified_time" content="2021-05-26T11:40:21.297Z">
 <meta property="article:author" content="MagicGrapes">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://yoursite.com/2020/09/26/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB9-21/image-20200921112330055.png">
@@ -184,7 +184,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-04-21 13:28:11" itemprop="dateModified" datetime="2021-04-21T13:28:11+08:00">2021-04-21</time>
+                <time title="修改时间：2021-05-26 19:40:21" itemprop="dateModified" datetime="2021-05-26T19:40:21+08:00">2021-05-26</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -221,8 +221,7 @@
 <p>表明尺寸单纯是角度的函数</p>
 <p><span class="math display">\[\operatorname{Kr}(\varphi)=\mathbf{r}(\varphi+C)\]</span></p>
 <p>K 表征尺寸放缩倍数，K仅和C相关，K和C与<span class="math inline">\(\varphi\)</span>和<span class="math inline">\(r\)</span>无关:</p>
-<p>两边对C和<span class="math inline">\(\varphi\)</span>分别求导，有</p>
-<p><span class="math display">\[\begin{equation}
+<p>两边对C和<span class="math inline">\(\varphi\)</span>分别求导，有 $$ <span class="math display">\[\begin{equation}
     \begin{aligned}
 \quad r(\varphi) \frac{d K}{d C}&amp;=\frac{\partial r(\varphi+C)}{\partial C}\\
 
@@ -234,7 +233,7 @@
 
   a&amp;=\frac{1}{K} \frac{d K}{d C}\\
     \end{aligned}
-\end{equation}\]</span></p>
+\end{equation}\]</span> $$</p>
 <p>a独立于 <span class="math inline">\(\varphi\)</span>，由此可以解得<span class="math inline">\(\mathbf{r}=\mathbf{e}^{\mathbf{a}\left(\varphi+\varphi_{\mathbf{o}}\right)}\)</span>这是一个等角螺旋（equiangular spiral）的方程,详见[1] “Logarithmic spiral,” <em>Wikipedia</em>. Sep. 05, 2020, Accessed: Sep. 22, 2020. [Online]. Available: https://en.wikipedia.org/w/index.php?title=Logarithmic_spiral&amp;oldid=976832601.</p>
 <p><img src="/2020/09/26/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB9-21/image-20200922044854018.png" alt="image-20200922044854018" style="zoom:50%;"></p>
 <p>因为最简单的偶机子需要两个平面，所以我们要找四条等角螺旋线，根据等角螺旋的特性可知（待考证），当a不同时，曲线会在r取有限小值时重合。因此可以让a相同，取不同的<span class="math inline">\(\varphi_0\)</span>。</p>
@@ -700,7 +699,7 @@ K\frac{\partial r(\theta,\varphi)}{\partial \varphi}&amp;=\frac{\partial r(\thet
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">6</span>
+          <span class="site-state-item-count">7</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -810,7 +809,11 @@ K\frac{\partial r(\theta,\varphi)}{\partial \varphi}&amp;=\frac{\partial r(\thet
         }
       },
       tex: {
-        inlineMath: {'[+]': [['$', '$']]},
+        inlineMath: {'[+]': [['$', '$'], ["$$", "$$"]]},
+        displayMath: [             // start/end delimiter pairs for display math
+                      ['\$\$', '\$\$'],
+                      ['\\[', '\\]']
+                     ],
           packages: {'[+]': ['mhchem']},
         tags: 'ams'
       },
@@ -845,6 +848,10 @@ K\frac{\partial r(\theta,\varphi)}{\partial \varphi}&amp;=\frac{\partial r(\thet
       document.head.appendChild(script);
     })();
   } else {
+    MathJax={
+      displayMath:['$$','$$'],
+      processEnvironments: false,
+    };
     MathJax.startup.document.state(0);
     MathJax.texReset();
     MathJax.typeset();
